@@ -1,1 +1,12 @@
-Hello {{ name }}!
+{# src/Users/UserBundle/Resouces/views/User/index.html.twig #}
+{% extends 'UsersUserBundle::base.html.twig' %}
+
+{% block title %}Prueba{% endblock %}
+
+{% block body %}
+    <article class="blog">
+        <header>
+            <h2> Hello {{ name }}!</h2>
+        </header>
+    </article>
+{% endblock %}
